@@ -8,5 +8,14 @@ Make sure you computer and Awair devices connected to the same network.
 
 MacOS
 
+Put your devices' addresses as arguments
+
+```sh
+./run.sh 192.168.1.13 
 ```
-./collector.sh [list of ip address of awair device]
+
+alternatively you can provide pre-written list 
+
+```sh
+./run.sh `cat hostlist.txt`
+```
